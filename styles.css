@@ -4,8 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Barre de navigation*/nav{
-    background-color: #0f0c0c;
+/*Barre de navigation*/
+
+nav{
+    background-color: #1D1D1F;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,7 +19,6 @@ nav .gauche{
     display: flex;
     flex-wrap: wrap;
 }
-
 /*Une fois que j'ai le logo, il faut l'interer en img au lieu de H1
 nav.gauche img{
     padding-top: 5px;
@@ -49,3 +50,68 @@ nav .droite p{
 }
 
 /*FIN Barre de navigation*/
+
+/*Les films et series*/
+.films-et-series{
+    background-color: #1D1D1F;
+    padding: 25px;
+}
+
+.films-et-series .section{
+    margin-bottom: 55px;
+}
+
+.films-et-series .section h2{
+    color: #fafaff;
+}
+.films-et-series .section .list{
+    display:flex;
+    overflow:auto;
+} 
+.films-et-series .section a{
+padding-left: 5px;
+transition: transform 0.25s;
+}
+.films-et-series .section a:hover{
+transform:scale(1.05);
+}
+.films-et-series .section a img{
+height: 140px;    
+border-radius: 2%;
+}
+
+/* Scroolbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: 1D1D1F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D1D1F;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1D1D1F;
+}
+  /* Fin scrollbar */
+
+
+
+/*Fin des film et serie*/
+
+/* Pied de page */
+footer{
+    background-color: #000;
+    padding: 25px 100px;
+    color: #909191;
+  }
+  footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* Fin du pied de page */
