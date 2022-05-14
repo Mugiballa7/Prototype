@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barre de navigation*/nav{
+    background-color: #0f0c0c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fafaff;
+    padding: 0 25px;
+}
+
+nav .gauche{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Une fois que j'ai le logo, il faut l'interer en img au lieu de H1
+nav.gauche img{
+    padding-top: 5px;
+}
+***************/
+nav .gauche .onglets{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+nav .gauche .onglets p{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #909191
+}
+nav .gauche .onglets p:hover{
+    color: #fafaff
+}
+
+nav .droite{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav .droite p{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/*FIN Barre de navigation*/
